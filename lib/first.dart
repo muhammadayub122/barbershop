@@ -34,7 +34,7 @@ class _FirstscreenState extends State<Firstscreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [Padding(padding: EdgeInsets.only(top: 200)),
+            children: [const Padding(padding:  EdgeInsets.only(top: 200)),
               const Icon(
                 Icons.storm,
                 size: 70,
@@ -73,7 +73,7 @@ class _FirstscreenState extends State<Firstscreen> {
                   ),
                   onPressed: () {
                     Navigator.of(context).push(
-                      MaterialPageRoute(builder: (_) => LoginPage()),
+                      MaterialPageRoute(builder: (_) => const LoginPage()),
                     );
                   },
                   child: const Text(
@@ -97,7 +97,7 @@ class _FirstscreenState extends State<Firstscreen> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (_) => RegisterScreen()),
+                      MaterialPageRoute(builder: (_) => const RegisterScreen()),
                     );
                   },
                   child: const Text(

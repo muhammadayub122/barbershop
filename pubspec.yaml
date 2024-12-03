@@ -37,6 +37,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   intl_phone_field: ^3.2.0
   table_calendar: ^3.1.2
+  flutter_bloc: ^8.1.6
+  easy_stepper: ^0.8.5+1
+  equatable: ^2.0.7
+  provider: ^6.1.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
